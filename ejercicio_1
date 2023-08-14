@@ -1,0 +1,59 @@
+#1/
+NOMBRES_FAMILIA.sort()
+print("Nombres de Familia ordenada:",  NOMBRES_FAMILIA)
+
+#2/
+Temperatura.sort()
+print("Registro de Temperaturas de mayor a menor:", Temperatura)
+
+#3/
+use Ejercicio_1; 
+INSERT INTO TEMPERATURA Marzo VALUES ('01-03-2023', 29.5), ('02-03-2023', 33), ('03-03-2023', 24), ('04-03-2023', 22), ('05-03-2023', 23) ('06-03-2023', 28), ('07-03-2023'), 26), ('08-03-2023', 19.5), ('09-03-2023', 18), ('10-03-2023', 19), ('11-03-2023', 23.5), ('12-03-2023', 22) ('13-03-2023', 29), ('14-03-2023'), 27), ('15-03-2023', 25);
+print("Estos son los registros de las temperaturas:", TEMPERATURA)
+
+#4/
+NOMBRES= nombre for Ejercicio in NOMBRES if nombre not in ['Abuelo', 'Abuela'],
+print ("Los nombres de la familia sin los nombres del Abuelo y Abuela son: ", NOMBRES)
+
+#5/
+CIUDADES.remove('Frontera')
+print("Ciudades visitadas:", CIUDADES)
+
+#6/
+print(" :", NOMBRES_FAMILIA)
+print(" :", TEMPERATURA)
+print(" :", CIUDADES)
+print(" :", EVENTOS_IMPORTANTES)
+
+///
+
+///
+
+lista_tuplas = [1, 2, 3]
+
+///
+print("Lista de tuplas:", lista_tuplas)
+
+
+////
+NOMBRES_FAMILIA = {
+	'10525156': 'Padre',
+	'11587268': 'Madre',
+	'25426759': 'Hermano',
+	'29326778': 'Hermana'
+}
+
+/
+
+NOMBRES_FAMILIA_AMPLIADA = {
+	'4338779': 'Abuelo',
+	'5268568': 'Abuela',
+	'8339634': 'Suegro',
+	'6684258': 'Suegra',
+
+}
+
+/
+
+familia.update(NOMBRES_FAMILIA_AMPLIADA)
+print("La familia esta compuesta por :", NOMBRES_FAMILIA_AMPLIADA)
