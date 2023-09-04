@@ -46,8 +46,7 @@ while True:
   if numero == -1:
     break
   suma += numero
-  
-    
+     
   print ("El resultado es: ", suma + numero);
  
 
@@ -57,16 +56,7 @@ while True:
 # b = 0
 # c = 0
 
-# for i in range(numero):
-#   if numero > 0:
-#    a += 1
-#   elif numero < 0:
-#     b += 1 
-# else:
-#     c += 0
-# print("Numeros positivos: ",a)
-# print("Numeros negativos: ",b)
-# print("Numeros iguales a 0: ",c)
+# 
 
 
 #3 vocal
