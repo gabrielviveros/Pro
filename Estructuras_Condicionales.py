@@ -38,30 +38,64 @@
 #   print ("Es vocal")
   
 ###### ejercicios estructuras repetidas   
-# 1 suma
+## 1 suma
+print ("Ingrese los numeros que desee sumar (-1 para finalizar)")
+suma = 0
+while True:
+  numero = int (input("Ingrese un numero, por favor: "))
+  if numero == -1:
+    break
+  suma += numero
+  
+    
+  print ("El resultado es: ", suma + numero);
+ 
+
+# #2 que pida numeros
+# numero = int (input("Ingrese un numero que desee por favor: "))
 # a = 0
-# print ("Ingrese los numeros que desee sumar (-1 para finalizar la operacion)")
-# b = int (input("Ingrese un numero, por favor: "))
-# while b != -1: 
-#   print ("El resultado es: ", a + b);
-#   if a == "-1":
-#     print ("Ha ingresado -1 se cancela la operacion")
+# b = 0
+# c = 0
+
+# for i in range(numero):
+#   if numero > 0:
+#    a += 1
+#   elif numero < 0:
+#     b += 1 
+# else:
+#     c += 0
+# print("Numeros positivos: ",a)
+# print("Numeros negativos: ",b)
+# print("Numeros iguales a 0: ",c)
 
 
-#2 que pida numeros
-numero = int (input("Ingrese un numero que desee por favor: "))
-a = 0
-b = 0
-c = 0
+#3 vocal
+# while True:
+#   letra =input ("Ingrese una letra (0 para salir): ")
+#   if letra == '0':
+#     break
+#   elif letra in 'aeiou':
+#     print("VOCAL")
+#   else:
+#     print("NO VOCAL")
 
-for i in range(numero):
-  if numero > 0:
-   a += 1
-  elif numero < 0:
-    b += 1 
-else:
-    c += 0
-print("Numeros positivos: ",a)
-print("Numeros negativos: ",b)
-print("Numeros iguales a 0: ",c)
+# ingresar numeros
+# suma = 0
+# contador = 0
 
+
+# while True:
+#   numero = int(input("Ingrese un numero (0 para salir): "))
+#   if numero == 0:
+#     break
+#   suma += numero
+#   contador += 1
+  
+  
+# if contador > 0:
+#   promedio = suma / contador
+#   print("suma: ", suma)
+#   print("contador: ", promedio)
+  
+
+  
